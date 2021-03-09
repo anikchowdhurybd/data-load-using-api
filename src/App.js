@@ -16,13 +16,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <ul>
+        <div >
+          <ul className="header">
             <li>
               <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/home">Home2</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
